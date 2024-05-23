@@ -1,0 +1,10 @@
+<svg id="Layer_8" data-name="Layer 8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 950">
+    <polygon
+        points="800 500 800 650 650 650 650 500 500 500 500 950 650 950 650 800 800 800 800 950 950 950 950 500 800 500"
+        style="fill:#eab208" />
+    <polygon points="450 500 0 500 0 650 150 650 150 950 300 950 300 650 450 650 450 500" style="fill:#eab208" />
+    <path d="M975,250V475H825V400a75,75,0,0,0-150,0v75H525V250C525,125.74,625.74,25,750,25S975,125.74,975,250Z"
+        transform="translate(-25 -25)" style="fill:#eab208" />
+    <path d="M475,249.56V475.12H325V250a75,75,0,0,0-75-75H175V474.9H25V25.12H250C374.11,25.12,474.76,125.57,475,249.56Z"
+        transform="translate(-25 -25)" style="fill:#eab208" />
+</svg>
