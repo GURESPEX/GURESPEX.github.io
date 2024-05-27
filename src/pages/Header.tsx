@@ -29,7 +29,7 @@ const Header: FC<Props> = ({ containerRef, screenRef }) => {
                 className="logoLetter"
                 key={index}
                 letter={letter}
-                color="#EAB308"
+                color="#FF0052"
               />
             ))}
           </div>
@@ -59,7 +59,7 @@ const Header: FC<Props> = ({ containerRef, screenRef }) => {
             containerRef={containerRef}
             screenRef={screenRef}
             element={
-              <div className="w-1 aspect-square rounded-full bg-yellow-500"></div>
+              <div className="w-1 aspect-square rounded-full bg-[#fff]"></div>
             }
             position={[50, 50, -25]}
             spreadSize={[50, 50, 25]}
@@ -82,17 +82,6 @@ const Header: FC<Props> = ({ containerRef, screenRef }) => {
             autoRotateSpeedRandomed
             depthOpacityStrength={0}
           />
-          {/* <Particle
-            containerRef={containerRef}
-            screenRef={screenRef}
-            element={<Window />}
-            position={[50, 50, -100]}
-            spreadSize={[50, 50, 100]}
-            amount={5}
-            scale={1}
-            depthOpacityStrength={0}
-            depthScaleStrength={0}
-          /> */}
         </Absolute>
       </Page>
     </>

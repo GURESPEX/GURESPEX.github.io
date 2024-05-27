@@ -59,7 +59,7 @@ const App = () => {
           containerRef={containerRef}
           screenRef={containerRef}
           element={
-            <div className="w-1 aspect-square rounded-full bg-yellow-500"></div>
+            <div className="w-1 aspect-square rounded-full bg-[#FF0052]"></div>
           }
           position={[50, 0, 50]}
           spreadSize={[50, 100, 25]}
@@ -84,7 +84,7 @@ const App = () => {
           onClick={() => {
             lenis.current && lenis.current.scrollTo("#header");
           }}
-          className="sm:flex hidden row sm:col h-16 sm:h-auto w-auto sm:w-16 gap-2 p-2 bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-600 border border-yellow-500 rounded-xl transition-all duration-500 hover:cursor-pointer"
+          className="sm:flex hidden row sm:col h-16 sm:h-auto w-auto sm:w-16 gap-2 p-2 bg-[#c0003d] hover:bg-[#FF0052] active:bg-[#c0003d] border border-[#FF0052] rounded-xl transition-all duration-500 hover:cursor-pointer"
         >
           <div className="hidden h-full sm:h-auto w-auto sm:w-full aspect-square sm:grid grid-cols-2 gap-1 p-2 rounded-sm">
             {logoLetters.map((letter, index) => (
@@ -92,7 +92,7 @@ const App = () => {
                 className="logoLetter"
                 key={index}
                 letter={letter}
-                color="#713F12"
+                color="#fff"
               />
             ))}
           </div>

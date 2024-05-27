@@ -150,7 +150,7 @@ html.lenis body {
 
 /* Handle */
 .scrollbar-styled::-webkit-scrollbar-thumb {
-  background: #eab308;
+  background: #ff0052;
 }
 
 /* Handle on hover */

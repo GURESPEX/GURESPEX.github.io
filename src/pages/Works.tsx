@@ -11,7 +11,7 @@ const Works = () => {
     <Page className="col rounded-xl" full>
       <Column className="flex-1 gap-2">
         <Marquee
-          className="p-4 rounded-xl bg-slate-900 border border-slate-800 text-yellow-500 text-[4rem] font-bold uppercase"
+          className="p-4 rounded-xl bg-slate-900 border border-slate-800 text-[#FF0052] text-[4rem] font-bold uppercase"
           autoFill
         >
           <div
@@ -63,7 +63,7 @@ const Works = () => {
             style={{
               transitionTimingFunction: "cubic-bezier(0.1, 0.5, 0, 1)",
             }}
-            className="row bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-600 border border-yellow-500 text-yellow-900 p-2 gap-2 rounded-xl transition-all duration-500"
+            className="row bg-[#c0003d] hover:bg-[#FF0052] active:bg-[#c0003d] border border-[#FF0052] text-white p-2 gap-2 rounded-xl transition-all duration-500"
           >
             <Column className="gap-2 p-2">
               <Row className="items-center gap-2">

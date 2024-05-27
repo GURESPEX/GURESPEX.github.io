@@ -70,7 +70,7 @@ const SideBar: FC = () => {
                       <div className="text-md text-white font-light uppercase">
                         Hi there! my name is
                       </div>
-                      <div className="text-3xl text-yellow-500 uppercase">
+                      <div className="text-3xl text-[#FF0052] uppercase">
                         Natthanan Thongchomphu
                       </div>
                     </Column>
@@ -84,14 +84,14 @@ const SideBar: FC = () => {
               </Row>
               <Row className="w-full rounded-sm">
                 <Column className="p-4 text-white text-md font-light uppercase">
-                  <div className="pl-4 border-l-2 border-yellow-500">
+                  <div className="pl-4 border-l-2 border-[#FF0052]">
                     I'm a student of College of Computing Khon Kaen University
                     who is interested in Front-End development.
                   </div>
                 </Column>
               </Row>
               <Column className="flex-1 w-full gap-4 p-2 text-white">
-                <div className="text-3xl uppercase text-yellow-500">Skills</div>
+                <div className="text-3xl uppercase text-[#FF0052]">Skills</div>
                 <div className="flex-1 grid grid-cols-1 gap-2">
                   {skills.map(({ name, icon }, index) => (
                     <Row
@@ -134,7 +134,7 @@ const SideBar: FC = () => {
             style={{
               transitionTimingFunction: "cubic-bezier(0, 0, 0, 1)",
             }}
-            className="relative w-6 aspect-square row justify-center items-center bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-600 border border-yellow-500 text-yellow-900 rounded-sm hover:cursor-pointer transition-all duration-500"
+            className="relative w-6 aspect-square row justify-center items-center bg-[#c0003d] hover:bg-[#FF0052] active:bg-[#c0003d] border border-[#FF0052] text-[#8a002c] rounded-sm hover:cursor-pointer transition-all duration-500"
             onClick={() => {
               setIsShow(!isShow);
             }}
