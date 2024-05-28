@@ -157,3 +157,8 @@ html.lenis body {
 .scrollbar-styled::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
 }
+
+::selection {
+  color: white;
+  background: #ff0052;
+}
