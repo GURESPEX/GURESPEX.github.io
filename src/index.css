@@ -145,7 +145,7 @@ html.lenis body {
 
 /* Track */
 .scrollbar-styled::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
+  background: #1e293b;
 }
 
 /* Handle */
